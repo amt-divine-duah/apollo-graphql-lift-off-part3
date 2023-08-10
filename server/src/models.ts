@@ -12,3 +12,11 @@ export type AuthorModel = {
   name: string;
   photo: string;
 };
+
+/* Other exports */
+
+export type ModuleModel = {
+  id: string;
+  title: string;
+  length: number;
+};
